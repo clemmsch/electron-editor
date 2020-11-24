@@ -1,0 +1,63 @@
+body{
+    padding:0;
+    margin:0;
+
+}
+
+body *{
+    box-sizing: border-box;
+}
+
+
+.container{
+    height:100%;
+    padding:0;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.windowTitle {
+    padding:10px;
+    height:auto;
+    display: inline;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal; 
+    font-variant: normal;
+}
+
+
+.windowControls{
+    float:right;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 5px;
+    width:100px;
+}
+
+.windowControls button{
+    outline:0;
+    border:0;
+    padding:5px;
+    background:none;
+
+}
+
+.titlebarStyle{
+    background: #202327;
+    color:#FFF;
+    size:6pt;
+}
+
+.windowControlsStyle{
+}
+
+.windowControlsStyle button{
+    color:#FFF;
+    weight:bold
+}
+
+.windowControlsStyle button:hover{
+    background: #48494c;
+}
+

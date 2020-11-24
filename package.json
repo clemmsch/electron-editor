@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "electron": "^11.0.2"
+  },
+  "name": "Visionizer",
+  "version": "1.0.0",
+  "description": "A Text Editor using ElectronJS",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+
+
+  },  
+  "author": "somekindofpanem <panemlp@gmx.net>",
+  "license": "MIT"
+}
