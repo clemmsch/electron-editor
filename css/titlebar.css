@@ -48,7 +48,10 @@ body *{
     color:#FFF;
     size:6pt;
 }
-
+.titlebar{
+    display:grid;
+    grid-template-columns: 1fr auto;
+}
 .windowControlsStyle{
 }
 
@@ -59,5 +62,15 @@ body *{
 
 .windowControlsStyle button:hover{
     background: #48494c;
+}
+
+.preventSelect{
+    user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+
+.draggable{
+    -webkit-app-region: drag;
 }
 
